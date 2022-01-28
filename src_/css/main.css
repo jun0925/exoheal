@@ -185,13 +185,13 @@ span.swiper-pagination-current { font-weight: 600; }
 
 .new-section1 .right .swiper-slide { max-width: 360px; cursor: default; } 
 
-.new-section1 .right .review { box-sizing: border-box; width: 360px; height: 360px; text-align: center; padding: 65px 20px; background: #43695c; position: relative; } 
+.new-section1 .right .review { box-sizing: border-box; width: 360px; height: 360px; text-align: center; padding: 70px 20px; background: #43695c; position: relative; } 
 
 .new-section1 .right .review p { color: #fff; font-weight: 200; } 
 
 .new-section1 .right .review .star-grade { margin-bottom: 10px; } 
 
-.new-section1 .right .review .review-txt { font-size: 20px; line-height: 1.6; text-align: center; word-break: keep-all;} 
+.new-section1 .right .review .review-txt { font-size: 20px; line-height: 1.6; text-align: center; word-break: keep-all; display:-webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; overflow: hidden; max-height: 160px;} 
 
 .new-section1 .right .review .review-product { width: 100%; position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); line-height: 1.3; font-weight: 500; letter-spacing: 0; font-size: 20px; } 
 
