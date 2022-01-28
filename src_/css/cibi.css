@@ -7,13 +7,13 @@
 
 .section-cibi { margin: 90px 0; } 
 
-.cont-top-wrap { margin-bottom: 90px; text-align: center; } 
+.cont-top-wrap { text-align: center; } 
 
 .ci-bi-tab { margin-bottom: 13px; } 
 
 .ci-bi-tab li { display: inline-block; cursor: pointer; font-size: 40px; font-weight: 600; opacity: 0.6; letter-spacing: 0; font-weight: 300; } 
 
-/*.ci-bi-tab li:first-child { margin-right: 83px; } */
+/*.ci-bi-tab li:first-child.cont-top-wrap { margin-right: 83px; } */
 
 .ci-bi-tab li.choice { opacity: 1; color: #43695c; font-weight: 600; } 
 
