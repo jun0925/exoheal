@@ -110,6 +110,8 @@
 .brand02 .content2-box .tit-box h3 { font-size: 40px; letter-spacing: 0; font-weight: 300; margin-bottom: 15px; } 
 
 .brand02 .content2-box .tit-box p { font-size: 20px; font-weight: 300; } 
+
+
 .tab-outer { width: 1200px; margin: 0 auto 35px; overflow: hidden; padding-bottom: 5px; } 
 
 .tab-wrap { border-bottom: 1px solid #000; margin-bottom: 60px; } 
@@ -161,7 +163,6 @@
 
 .cont-wrap .flex-cont.flex-start {align-items: flex-start;}
 
-
 .cont-wrap .flex-cont.long-cont { align-items: flex-start}
 
 .cont1-box { /*공통*/
@@ -193,9 +194,17 @@
 
 .cont-show { opacity: 1; transform: none; } 
 
-.cont-tit2 { font-size: 35px; font-weight: 300; letter-spacing: 0; text-align: center; margin-bottom: 60px; } 
+.cont-top-wrap {margin-bottom: 100px; text-align: center;}
 
-.brand02-list { width: 60%; margin: 0 auto 90px;; } 
+.cont-tit2 { font-size: 40px; font-weight: 300; letter-spacing: 0; margin-bottom: 20px; text-align: center;} 
+
+.cont-tit2-desc {font-size: 20px; font-weight: 300; line-height:1.4;}
+
+.cont-tit2-desc strong {color: #43695c;}
+
+.b03-content-box {background: #f3f3f3; margin-top: 50px;}
+
+.brand02-list { width: 60%; margin: 0 auto 90px; } 
 
 .brand02-list li { font-size: 20px; font-weight: 300; display:flex; line-height: 1.6; } 
 
