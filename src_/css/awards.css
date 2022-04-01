@@ -58,7 +58,7 @@
 
 .awards-detail-swiper-outer { margin-top: 35px; position: relative; } 
 
-.awards-detail-swiper { max-width: 870px; } 
+.awards-detail-swiper { width: 870px; } 
 
 .awards-detail-swiper .swiper-slide { max-width: 120px; max-height: 91px; overflow: hidden;} 
 
