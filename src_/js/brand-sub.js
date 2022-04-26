@@ -6,8 +6,27 @@
  ****************************************/
 $(function () {
     /* brand02 tab*/
-    var $brand02Tab = $(".brand02 .tab");
+    var $brand02Tab = $(".brand02 #tabCont1 .tab");
     contActive($brand02Tab);
+
+    $(".b02-tab").on("click",function(){
+        $(this).addClass("choice");
+        $(".b02-tab").not($(this)).removeClass("choice");
+
+        switch($(this).index()){
+            case 0:
+                $("#tabCont2").stop().fadeOut(300,function(){
+                    $("#tabCont1").stop().fadeIn(300);
+                });
+                break;
+            
+            case 1:
+                $("#tabCont1").stop().fadeOut(300,function(){
+                    $("#tabCont2").stop().fadeIn(300);
+                });
+                break;
+        }
+    });
 
     /* brand03 tab*/
     var $brand03Tab = $(".brand03 .tab");
@@ -65,7 +84,7 @@ function contActive(tabBtn) {
         var $cont = [$(".cont1-box"), $(".cont2-box"), $(".cont3-box"), $(".cont4-box"), $(".cont5-box"), $(".cont6-box"), $(".cont7-box"), $(".cont8-box"), $(".cont9-box"), $(".cont10-box")];
         var $tabIndex = $(this).parent().index();
 
-        $(".cont").css("display", "none").removeClass("cont-show");
+        $(".cont").not($("#tabCont2").children()).css("display", "none").removeClass("cont-show");
         $cont[$tabIndex].css("display", "block");
         setTimeout(function () {
             $cont[$tabIndex].addClass("cont-show");
