@@ -19,6 +19,9 @@
 .section1 .swiper-slide.slide2 { background-image: url("/img_/pc_main_slide2.jpg"); } 
 
 .section1 .swiper-slide.slide3 { background-image: url("/img_/pc_main_slide3.jpg"); } 
+.section1 .swiper-slide.slide4 { background-image: url("https://images.unsplash.com/photo-1598452963314-b09f397a5c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80"); } 
+.section1 .swiper-slide.slide5 { background-image: url("https://images.unsplash.com/photo-1624613533305-28d421d70875?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"); } 
+.section1 .swiper-slide.slide6 { background-image: url("https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80"); } 
 
 
 .section1 .swiper-slide .slide-cont-wrap { position: absolute; top: 55.2%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; opacity: 0; transition: 0.7s; } 
