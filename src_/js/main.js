@@ -59,19 +59,19 @@ $(function () {
 
     /* products swiper */
     var productsSwiper = new Swiper("#productsSwiper", {
-        slidesPerView: 2,
-        touchRatio: 0,
+        slidesPerView: 3,
+        //touchRatio: 0,
         spaceBetween: 20,
         /*autoplay: {
             delay: swiperDelay,
             disableOnInteraction: false
-        },
+        },*/
         speed: 500,
         loop: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev"
-        }*/
+        }
     });
 
     /*review swiper */

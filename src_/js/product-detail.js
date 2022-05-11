@@ -61,13 +61,13 @@ $(function(){
 
     //product swiper 
     var anotherProductSSwiper = new Swiper ("#anotherProductsSwiper",{
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20,
-        touchRatio: 0,
-        //speed: 500,
-        /*navigation: {
+        //touchRatio: 0,
+        speed: 500,
+        navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev"
-        }*/
+        }
     });
 });

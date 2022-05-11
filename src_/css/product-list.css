@@ -13,8 +13,8 @@
 /** product section **/
 .product-section { width: 1200px; margin: 0 auto 110px; } 
 .product-list { display: flex; flex-wrap: wrap; } 
-.product { width: 49.1%; margin-right: 21px; margin-bottom: 90px; } 
-.product:nth-child(2n) { margin-right: 0; } 
+.product { width: 32.2%; margin-right: 20px; margin-bottom: 90px; } 
+.product:nth-child(3n) { margin-right: 0; } 
 .product > a { display: block; background: #f4f2f5; } 
 /** ...product section **/
 
