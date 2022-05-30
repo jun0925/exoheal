@@ -24,7 +24,7 @@
 
 .brand01-cont.cont2 { background-image: url(/img_/brand/brand01/sec2-bg.jpg); } 
 
-.brand01-cont .section-content { display: flex; flex-direction: column; justify-content: center; width: 1200px; height: 100%; margin: 0 auto; } 
+.brand01-cont .section-content { display: flex; flex-direction: column; justify-content: center; width: 1100px; height: 100%; margin: 0 auto; } 
 
 .brand01-cont.cont1 .section-content { align-items: center; } 
 
