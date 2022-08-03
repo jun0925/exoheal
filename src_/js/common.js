@@ -21,7 +21,7 @@ $(function () {
     var $gnbBox = $(".gnb-box");
     var $navHeight;
 
-    if($(".nav2").children().length >= 8) {
+    if($(".nav2").children().length >= 7) {
         $navHeight = $(".nav2").innerHeight();
     } else {
         $navHeight = $(".nav1").innerHeight();
