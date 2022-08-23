@@ -36,9 +36,6 @@ $(function () {
     var $brand04Tab = $(".brand04 .tab");
     contActive($brand04Tab);
 
-    var $brand05Tab = $(".brand05 .tab");
-    contActive($brand05Tab);
-
     /* brand06 tab */
     var $brand06Tab = $(".brand06 .tab");
     contActive($brand06Tab);

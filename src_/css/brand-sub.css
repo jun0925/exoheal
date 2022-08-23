@@ -223,8 +223,9 @@
 /* ...brand04 */
 
 /* brand05 */
-.brand05 .b05-cont .contract-wrap:after { content: " "; display: block; clear: both; } 
-.brand05 .b05-cont .contract-img-box { float: left; margin-right: 70px; } 
+.brand05 .b05-cont .contract-wrap { display: flex; } 
+
+.brand05 .b05-cont .contract-img-box {margin-right: 70px; } 
 
 .brand05 .b05-cont .contract-txt-box .tit-box h3 { font-size: 40px; font-weight: 300; letter-spacing: 0; margin-bottom: 8px; } 
 
@@ -232,21 +233,31 @@
 
 .brand05 .b05-cont .contract-txt-box p { font-size: 19px; font-weight: 300; line-height: 1.65; margin-bottom: 28px; word-break: keep-all; } 
 
-.brand05 .b05-cont .contract-txt-box .contract-txt1 .purple { color: #01936b; } 
+.brand05 .b05-cont .contract-txt-box .green { color: #01936b; } 
 
-.brand05 .b05-cont .contract-txt-box .contract-txt1 .red { color: #d30303; } 
+.brand05 .b05-cont .contract-txt-box .red { color: #d30303; } 
 
-.brand05 .b05-cont .contract-txt-box .contract-txt1 .blue { color: #0069df; } 
+.brand05 .b05-cont .contract-txt-box .blue { color: #0069df; } 
 
-.brand05 .b05-cont .contract-txt-box .sign-box { padding-top: 25px; } 
+.brand05 .b05-cont .contract-txt-box .as-box { background: #f6f6f6; padding: 20px;}
+
+.brand05 .b05-cont .contract-txt-box .as-box strong {font-size: 18px;}
+
+.brand05 .b05-cont .contract-txt-box .as-box p {font-size: 18px; font-weight: 300; margin: 9px 0 0; }
 
 .brand05 .b05-cont .contract-eng { font-size: 20px; font-weight: 300; line-height: 1.65; word-break: keep-all; margin-top: 50px; } 
 
-.brand05 .b05-cont2 { margin-top: 115px; margin-bottom: 50px; } 
+.brand05 .b05-cont2 {margin: 98px 0 150px;}
 
-.brand05 .b05-cont2 .tab-outer { margin-bottom: 0; } 
+.brand05 .b05-cont2 h3 {font-size: 30px; letter-spacing: -0.02em; line-height: 1.3; text-align: center;}
 
-.brand05 .b05-cont2 .cont { text-align: center; } 
+.brand05 .b05-cont2 h3 span {font-weight: 400;}
+
+.brand05 .b05-cont2 .cpl-box {margin-top: 50px;}
+
+.brand05 .b05-cont2 .cpl-desc h4 {font-size: 30px; letter-spacing: -0.02em; margin-bottom: 20px;}
+.brand05 .b05-cont2 .cpl-desc p {font-size: 20px; font-weight: 300;}
+
 /* ...brand05 */
 
 .intro-img2 { margin-bottom: 37px; } 
