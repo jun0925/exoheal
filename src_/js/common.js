@@ -55,6 +55,11 @@ $(function () {
         }
     });
 
+    $(".combo-choice").on("click",function(){
+        $(this).toggleClass("list-open");
+        $(".combo-list").stop().slideToggle(300);
+    })
+
     $header.on("mouseover",subMenu).on("mouseout",subMenu);
     
     function subMenu(e) {
