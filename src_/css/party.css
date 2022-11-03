@@ -235,16 +235,16 @@ section {
   padding-bottom: 20px;
 }
 .party-content1-section .party-gal-cont-box #partyGalTabSwiper .content-tab:hover {
-  color: #f36c21;
+  color: #43695c;
 }
 .party-content1-section .party-gal-cont-box #partyGalTabSwiper .content-tab.active {
-  color: #f36c21;
+  color: #43695c;
   font-weight: 500;
 }
 .party-content1-section .party-gal-cont-box #partyGalTabSwiper .content-tab::after {
   content: "";
   display: block;
-  background: #f36c21;
+  background: #43695c;
   width: 8px;
   height: 8px;
   border-radius: 50%;
