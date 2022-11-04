@@ -106,17 +106,28 @@ $(function(){
 
     $(".awards-swiper").each(function(index,element){
         $(this).attr("id",`partyAwardSwiper-${index}`);
-
+        
         let centerOption;
-        if($(`#partyAwardSwiper-${index} .swiper-wrapper`).children().length == 1) {
+        let awardSwiperWrap = $(`#partyAwardSwiper-${index} .swiper-wrapper`);
+        let awardsContLength = awardSwiperWrap.children().length
+
+
+        if(awardsContLength == 1) {
             centerOption = true;
         } else {
             centerOption = false;
         }
 
+        if(awardsContLength == 3) {
+            awardSwiperWrap.css("justify-content","center");
+        } else {
+            awardSwiperWrap.css("justify-content","");
+        }
+
         const partyAwardsSwiper = new Swiper(`#partyAwardSwiper-${index}`,{
             slidesPerView: 4,
             spaceBetween: 20,
+            speed: 800,
             observer: true,
             observeParents: true,
             centeredSlides: centerOption,
