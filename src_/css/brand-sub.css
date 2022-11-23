@@ -280,7 +280,7 @@
 
 .brand06 .cont-sub1 { box-shadow: 0 0 20px #999; position: relative; } 
 
-.brand06 .cont-sub1:after { content: " "; display: block; width: 146px; height: 140px; background: url(/img_/brand/b06-cont.png) no-repeat; position: absolute; right: -85px; bottom: 93px; } 
+.brand06 .cont-sub1:after { content: " "; display: block; width: 146px; height: 140px; background: url(/img_/brand/b06-cont.png) no-repeat; position: absolute; right: -87px; bottom: 95px; } 
 
 .brand06 .cont-sub2 { width: 100%; } 
 
@@ -291,7 +291,7 @@
 .brand06 .cont-sub2 .b06-mark-wrap p { font-size: 30px; } 
 
 
-.brand06 .cont-sub2 .b06-description-wrap { padding-lefT: 30px; } 
+.brand06 .cont-sub2 .b06-description-wrap { padding-left: 30px; } 
 
 .brand06 .cont-sub2 .b06-description-wrap b { font-size: 24px; } 
 
