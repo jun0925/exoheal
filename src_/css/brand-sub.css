@@ -299,6 +299,8 @@
 
 .brand06 .cont-sub2 .b06-description-wrap p strong { border-bottom: 1px solid #000; } 
 
+.brand06 .cont-sub2 .b06-description-wrap p strong.nb {border-bottom: 0;}
+
 .brand06 .summary-wrap { display: flex; align-items: center; justify-content: center; margin-bottom: 90px; } 
 
 .brand06 .summary-wrap .summary-txt-box { margin-left: 25px; } 
