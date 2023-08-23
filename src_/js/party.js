@@ -83,17 +83,6 @@ $(function(){
         },
     });
 
-    const partyAwardsSwiper = new Swiper("#partyAwardsSwiper", {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        observer: true,
-        observeParents: true,
-        navigation: {
-            nextEl: "#partyAwardsSwiper .swiper-button-next",
-            prevEl: "#partyAwardsSwiper .swiper-button-prev"
-        },
-    });
-
     $(".awards-swiper").each(function(index,element){
         $(this).attr("id",`partyAwardSwiper-${index}`);
         
@@ -108,7 +97,7 @@ $(function(){
             centerOption = false;
         }
 
-        if(awardsContLength == 3) {
+        if(awardsContLength <= 3) {
             awardSwiperWrap.css("justify-content","center");
         } else {
             awardSwiperWrap.css("justify-content","");
