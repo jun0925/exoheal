@@ -485,7 +485,7 @@ footer .section-outer { background: #43695c; padding: 80px 0 90px; }
 
 .video-popup-box .video-wrap { width: auto; min-width: 700px; height: 480px; font-size: 0; position: relative; } 
 
-.img-popup-box .img-wrap { width: auto; height: auto; } 
+.img-popup-box .img-wrap { width: auto; height: auto; font-size: 0;} 
 
 .img-popup-box .img-wrap img { width: 100%; max-height: 660px; } 
 
